@@ -1,0 +1,334 @@
+/* === Root Variables === */
+:root {
+  /* Color Variables */
+  --primary-color: #FFDE00;
+  --primary-light-color: #FFE769;
+  --secondary-color: #FFE4BA;
+  --secondary-light-color: #FFF6E8;
+  --post-color: #62EEA8;
+  --delete-color: #FF9F9F;
+  --light-color: #FFFEFC;
+  --grey-color: #747E79;
+  --dark-color: #000000;
+
+  /* Font Variables */
+  --primary-font: 'Cabin', sans-serif;
+  --seconday-font: 'Calistoga', sans-serif;
+
+  /* Dimension Variables */
+  --border-width: 3px;
+  --element-border-radius: 5px;
+  --button-height: 5px;
+  --small-button-height: 2px;
+  --element-padding: 0.8em;
+  --maximum-width: 320px;
+}
+
+/* === Global Styles === */
+
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: var(--dark-color);
+  background-color: var(--secondary-light-color);
+  font-family: var(--primary-font);
+}
+
+/* === Typography === */
+
+/* Reset margin for headings and paragraphs */
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
+.app-title {
+  font-family: var(--seconday-font);
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+h2 {
+  font-weight: 500;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+/* === Sections === */
+
+/* Margin for section elements */
+section {
+  margin: 3em 0;
+}
+
+
+.auth-fields-and-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.google-signin-btn {
+  margin-top: 1.5em;
+}
+
+/* === Container Styles === */
+
+/* Centered container with maximum width */
+.container {
+  max-width: var(--maximum-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Adjusted container styles for logged-out view */
+#logged-out-view .container {
+  gap: 2em;
+}
+
+/* === Form and Button Styles === */
+
+/* Common styles for input and button elements */
+input, button, textarea {
+  font-family: inherit;
+  padding: var(--element-padding);
+  border-radius: var(--element-border-radius);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+/* === Input fields === */
+
+textarea {
+  font-size: 1em;
+  border: 0;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .25);
+  resize: none;
+  height: 6em;
+  padding-top: o.5em;
+  margin-top: 0.5em;
+}
+
+
+/* === Button Styles === */
+
+button {
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  box-shadow: 0px var(--button-height) 0px 0px var(--dark-color);
+  position: relative;
+}
+
+.primary-btn:hover {
+  top: var(--button-height);
+  box-shadow: none;
+}
+
+.provider-btn {
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  border: 0;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .25);
+  margin-top: 1.5em;
+}
+
+.provider-btn:hover {
+  transition: all 0.2s ease;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, .25);
+}
+
+.google-btn-logo {
+  width: 1.375em;
+}
+
+.secondary-btn {
+  padding: 0.4em;
+  background-color: transparent;
+}
+
+.secondary-btn:hover {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
+
+/* === Navigation Bar Styles === */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.sign-out-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-out-btn:hover {
+  background-color: #c82333;
+}
+
+/* Align the Sign Out button to the right */
+.navbar .logo {
+  flex: 1; /* Expand to fill available space */
+}
+
+.navbar .sign-out-btn {
+  margin-left: 10px; /* Add margin for spacing */
+}
+
+/* === Profile Picture Styles === */
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+}
+
+/* === Mood Emojis Styles === */
+
+.mood-emojis {
+  display: flex;
+}
+
+.mood-emoji-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8em;
+  gap: 0.3em;
+  background-color: transparent;
+  border: 0;
+}
+
+.mood-emoji-btn:hover {
+  transform: scale(1.2);
+}
+
+.mood-emoji-btn img {
+  width: 3.1em;
+  height: 3.1em;
+}
+
+.selected-emoji {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.unselected-emoji {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+/* === Posts Section === */
+
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 1.8em;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 0.8em;
+  border-radius: var(--element-border-radius);
+  gap: 0.4em;
+}
+
+.post .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post .header h3 {
+  font-size: 1em;
+}
+
+.post .header img {
+  width: 2em;
+  height: 2em;
+}
+
+.post p {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/* Additional Styles for Fetched Posts */
+.fetched-post {
+  margin-top: 1em; /* Add margin between each fetched post */
+  border: 1px solid var(--primary-color); /* Example border style */
+  padding: 1em; /* Example padding for each fetched post */
+  background-color: var(--light-color); /* Example background color */
+}
+
+/* === User Section === */
+
+.user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.user-section img {
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 100%;
+    border: var(--border-width) solid var(--dark-color);
+}
+.user-section h2 {
+  font-size: 1.2em;
+}
+
+.google-signin-btn img {
+  width: 2em;
+  height: 2em;
+}
