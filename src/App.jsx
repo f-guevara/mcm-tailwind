@@ -7,6 +7,8 @@ import Team from './pages/Team';
 import Products from './pages/Products';
 import Tenders from './pages/Tenders';
 import Footer from './components/Footer';
+import Downloads from './pages/Downloads';
+import Jobs from './pages/Jobs';
 import { LanguageProvider } from './components/LanguageContext';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/products" element={<Products />} />
             <Route path="/tenders" element={<Tenders />} />
+            <Route path="/downloads" element={<Downloads />} />
+            <Route path="/jobs" element={<Jobs />} />
             {/* Add other routes */}
           </Routes>
           <Footer />
