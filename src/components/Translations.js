@@ -49,7 +49,7 @@ export const translations = {
         ]
       },
     ],
-    // Add a description or placeholder for each catalog type (optional)
+    // Team page
     cranioMaxilloFacialDescription: "Explore our Cranio Maxillo Facial implants and products.",
     teamTitle: "Our Team",
     teamIntroduction: "Meet the dedicated professionals who make up our leadership team.",
@@ -185,6 +185,20 @@ export const translations = {
         ]
       }
     ],
+    // Team page
+teamTitle: "Unser Team",
+teamIntroduction: "Lernen Sie die engagierten Fachleute kennen, die unser Führungsteam bilden.",
+phoneLabel: "Telefon",
+emailLabel: "E-Mail",
+amerPosition: "Geschäftsführer/Partner",
+aliPosition: "Vertrieb/Partner",
+michelePosition: "CEO/Partner",
+cristianPosition: "Qualitätsmanagement/Partner",
+matiasPosition: "Produktion/Partner",
+yasirPosition: "Logistik",
+fernandoPosition: "Betrieb",
+hansPosition: "Buchhaltung",
+
     // About page and Home
     history: "MC Medizintechnick ist ein in Süddeutschland ansässiges Unternehmen, das seit Ende der 90er Jahre Implantate, Prothesen, Instrumente und Geräte für die allgemeine und orthopädische Chirurgie und andere herstellt und exportiert.",
     introduction: "Unser Expertenteam freut sich, bei einem Kaffee mit Ihnen Lösungen für die Bedürfnisse Ihres Unternehmens zu besprechen.",
