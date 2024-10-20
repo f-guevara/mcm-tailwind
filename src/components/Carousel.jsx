@@ -33,7 +33,7 @@ const Carousel = () => {
       linkTo: '/about',
     },
     {
-      image: '/premises-2.png',
+      image: '/premises.png',
       label: {
         en: 'Contact Us',
         de: 'Kontaktieren Sie uns',

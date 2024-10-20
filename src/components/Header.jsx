@@ -50,7 +50,7 @@ function Header() {
             <Link to="/" className="flex">
               <img
                 className="w-auto h-8 lg:h-10"
-                src="./icon.png"
+                src="./icon-mcm.png"
                 alt="Logo"
               />
             </Link>
