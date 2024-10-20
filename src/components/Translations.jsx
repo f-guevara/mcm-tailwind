@@ -1,5 +1,35 @@
 export const translations = {
   en: {
+    // Tenders page
+    tendersTitle: "Tenders",
+    tendersIntroduction: "Find the latest technical offers and download the relevant documents.",
+    showPdfs: "Show PDFs",
+    hidePdfs: "Hide PDFs",
+    tenders: [
+      {
+        id: 1,
+        title: "Technical Offer for Hospital ABC",
+        country: "Argentina",
+        description: "A comprehensive technical offer for hospital equipment and services in Buenos Aires, Argentina.",
+        pdfs: [
+          { name: "Overview.pdf", url: "/path/to/overview.pdf" },
+          { name: "Equipment Details.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+          { name: "Financial Proposal.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+        ]
+      },
+      {
+        id: 2,
+        title: "Technical Offer for Clinic XYZ",
+        country: "Germany",
+        description: "Specialized equipment and service offer for a clinic in Berlin.",
+        pdfs: [
+          { name: "Overview.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+          { name: "Equipment List.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+        ]
+      },
+    ],
+    // Add a description or placeholder for each catalog type (optional)
+    cranioMaxilloFacialDescription: "Explore our Cranio Maxillo Facial implants and products.",
     teamTitle: "Our Team",
     teamIntroduction: "Meet the dedicated professionals who make up our leadership team.",
     phoneLabel: "Phone",
@@ -44,6 +74,36 @@ export const translations = {
     contactButton: "Contact us",
   },
   de: {
+    // Tenders page
+    tendersTitle: "Ausschreibungen",
+    tendersIntroduction: "Finden Sie die neuesten technischen Angebote und laden Sie die relevanten Dokumente herunter.",
+    showPdfs: "PDFs anzeigen",
+    hidePdfs: "PDFs ausblenden",
+    tenders: [
+      {
+        id: 1,
+        title: "Technisches Angebot für das Krankenhaus ABC",
+        country: "Argentinien",
+        description: "Ein umfassendes technisches Angebot für Krankenhausgeräte und Dienstleistungen in Buenos Aires, Argentinien.",
+        pdfs: [
+          { name: "Übersicht.pdf", url: "/path/to/overview.pdf" },
+          { name: "Ausstattungsdetails.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+          { name: "Finanzangebot.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+        ]
+      },
+      {
+        id: 2,
+        title: "Technisches Angebot für die Klinik XYZ",
+        country: "Deutschland",
+        description: "Spezialisiertes Angebot für Geräte und Dienstleistungen für eine Klinik in Berlin.",
+        pdfs: [
+          { name: "Übersicht.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+          { name: "Geräteliste.pdf", url: "https://drive.google.com/file/d/1aAypFajVoo3f2ttzlvuKKvVB40UvLYKO/view?usp=drive_link" },
+        ]
+      },
+    ],
+    // Add a description or placeholder for each catalog type (optional)
+    cranioMaxilloFacialDescription: "Entdecken Sie unsere Cranio Maxillo Facial Implantate und Produkte.",
     teamTitle: "Unser Team",
     teamIntroduction: "Lernen Sie die engagierten Fachleute kennen, die unser Führungsteam bilden.",
     phoneLabel: "Telefon",
