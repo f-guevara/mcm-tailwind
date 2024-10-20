@@ -1,5 +1,18 @@
 export const translations = {
   en: {
+    teamTitle: "Our Team",
+    teamIntroduction: "Meet the dedicated professionals who make up our leadership team.",
+    phoneLabel: "Phone",
+    emailLabel: "Email",
+    amerPosition: "Managing Director/Partner",
+    aliPosition: "Sales/Partner",
+    michelePosition: "CEO/Partner",
+    cristianPosition: "Quality Management/Partner",
+    matiasPosition: "Production/Partner",
+    yasirPosition: "Logistics",
+    fernandoPosition: "Operations",
+    hansPosition: "Accounting",
+    //About Page and Home
     history: "MC Medizintechnick is a company located in southern Germany that produces and exports implants, prosthesis, instruments, and equipment for general and orthopedic surgery and others, since the late 90s.",
     introduction: "Our team of experts is happy to have a coffee with you and discuss solutions for your company needs.",
     aboutTitle: "About MC Medizintechnik",
@@ -31,6 +44,19 @@ export const translations = {
     contactButton: "Contact us",
   },
   de: {
+    teamTitle: "Unser Team",
+    teamIntroduction: "Lernen Sie die engagierten Fachleute kennen, die unser Führungsteam bilden.",
+    phoneLabel: "Telefon",
+    emailLabel: "E-Mail",
+    amerPosition: "Geschäftsführer/Partner",
+    aliPosition: "Vertrieb/Partner",
+    michelePosition: "CEO/Partner",
+    cristianPosition: "Qualitätsmanagement/Partner",
+    matiasPosition: "Produktion/Partner",
+    yasirPosition: "Logistik",
+    fernandoPosition: "Betrieb",
+    hansPosition: "Buchhaltung",
+    //About page and Home
     history: "MC Medizintechnick ist ein in Süddeutschland ansässiges Unternehmen, das seit Ende der 90er Jahre Implantate, Prothesen, Instrumente und Geräte für die allgemeine und orthopädische Chirurgie und andere herstellt und exportiert.",
     introduction: "Unser Expertenteam freut sich, bei einem Kaffee mit Ihnen Lösungen für die Bedürfnisse Ihres Unternehmens zu besprechen.",
     aboutTitle: "Über MC Medizintechnik",
