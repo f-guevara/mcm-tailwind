@@ -66,9 +66,7 @@ function Footer() {
                             >
                                 {t.terms}
                             </a>
-                            <Link to="/imprint" className="hover:underline">
-                                {t.imprint}
-                            </Link>
+                            
                             <Link to="/privacy-policy" className="hover:underline">
                                 {t.privacy}
                             </Link>
@@ -97,11 +95,7 @@ function Footer() {
                                     {t.jobs}
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/subscribe" className="hover:underline">
-                                    {t.subscribe}
-                                </Link>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -111,3 +105,10 @@ function Footer() {
 }
 
 export default Footer;
+
+
+/*
+<Link to="/imprint" className="hover:underline">
+                                {t.imprint}
+                            </Link>
+                            */
