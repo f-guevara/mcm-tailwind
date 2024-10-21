@@ -63,9 +63,14 @@ function Footer() {
                             <a
                                 href="https://drive.google.com/file/d/1Bq9P9-M7aGwbIH3829ef5f1hjbnM5C_s/view?usp=sharing"
                                 className="hover:underline"
+                                target="_blank" 
+        rel="noopener noreferrer" 
                             >
                                 {t.terms}
                             </a>
+                            <Link to="/imprint" className="hover:underline">
+                                {t.imprint}
+                            </Link>
                             
                             <Link to="/privacy-policy" className="hover:underline">
                                 {t.privacy}

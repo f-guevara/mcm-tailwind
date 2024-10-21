@@ -13,6 +13,7 @@ import CookieConsent from './components/CookieConsent';
 import { LanguageProvider } from './components/LanguageContext';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Cookies from './pages/Cookies';
+import Imprint from './pages/Imprint';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
             <Route path="/downloads" element={<Downloads />} />
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-           < Route path="/cookies" element={<Cookies />} />
+            < Route path="/cookies" element={<Cookies />} />
+            < Route path="/imprint" element={<Imprint />} />
             {/* Add other routes */}
           </Routes>
           <Footer />

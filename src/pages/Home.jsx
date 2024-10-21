@@ -16,7 +16,7 @@ function Home() {
         
         {/* Company Name and Introduction */}
         <section className="text-center mt-8">
-            <h1 className="text-3xl font-bold text-red-600">M.C. Medizintechnik Export GmbH & Co.Kg</h1>
+            <h1 className="text-3xl font-bold text-red-600">M.C. Medizintechnik Export GmbH & Co. KG (MC Medizintechnik)</h1>
             <p className="text-gray-700 mt-2 max-w-2xl mx-auto">
             {translations[language].history}
             </p>
